@@ -1,0 +1,125 @@
+body{
+    direction: rtl;
+}
+#content {
+    margin-right: 170px;
+    margin-left: 0;
+}
+.dropdown-menu {
+    float: left;
+}
+#authMessage .success, div .success {
+	border: none;
+    border-right: 4px solid #65BC3E;
+    padding: 8px 35px 8px 14px;
+}
+#authMessage .success, div .error {
+	border: none;
+    border-right: 4px solid #FF7474;
+    padding: 8px 35px 8px 14px;
+}
+.alert {
+    padding: 8px 35px 8px 14px;
+}
+.breadcrumb {
+	border: none;
+    border-right: 4px solid #FFD639;
+}
+.filter {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    text-align: right;
+}
+.sidebar{
+    float: right;
+}
+.nav-buttons {
+    margin-right: 0;
+}
+.nav-buttons li {
+    float: right;
+}
+.filter .input label {
+    margin: 0 0 0 10px;
+}
+table .item-actions a {
+    margin-left: 10px;
+    margin-right: 0;
+}
+.row-fluid [class*="span"] {
+    float: right;
+    margin-right: 2.5641%;
+    margin-left: 0;
+}
+.row-fluid [class*="span"]:first-child {
+    margin-right: 0;
+}
+.nav-tabs > li, .nav-pills > li {
+    float: right;
+}
+input[class*="span"], 
+select[class*="span"], 
+textarea[class*="span"], 
+.uneditable-input[class*="span"], 
+.row-fluid input[class*="span"], 
+.row-fluid select[class*="span"], 
+.row-fluid textarea[class*="span"], 
+.row-fluid .uneditable-input[class*="span"] {
+    margin-right: 0;
+}
+.radio input[type="radio"], .checkbox input[type="checkbox"]{
+    float: right;
+    margin-right: -20px;
+    margin-left: 0;
+}
+.radio, .checkbox {
+    padding-right: 20px;
+    padding-left: 0;
+}
+.close{
+    margin-left: 15px;
+}
+.table th, .table td {
+    text-align: right;
+}
+.input.inline {
+    float: right;
+}
+.input.inline label, .input.inline input, .input.inline select {
+    margin-left: 10px;
+    margin-right: 0px;
+}
+.pagination ul > li {
+    float: right;
+}
+.pagination ul > li:last-child > a, 
+.pagination ul > li:last-child > span {
+    border-radius: 4px 0 0 4px;
+}
+.pagination ul > li:first-child > a, 
+.pagination ul > li:first-child > span {
+    border-radius: 0 4px 4px 0;
+    border-right-width: 1px;
+}
+.dropdown-submenu > a:after{
+    float: left;
+}
+.dropdown-submenu > a:after{
+    border: none;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0) #CCCCCC rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    border-width: 5px 5px 5px 0;
+}
+.sidebar .sidebar-item.current.dropdown-close {
+    background: url("../../img/icons/sidebar_active.png") no-repeat scroll 0px 10px rgba(0, 0, 0, 0);
+}
+div.extensions-themes .current-theme .screenshot {
+    float: right;
+}
+.dropdown-menu{
+    right: 0;
+}
+
+.input-prepend .add-on, .input-prepend .btn {
+    margin-left: -1px;
+}

@@ -1,0 +1,22 @@
+#Line 6 E:\xampp\htdocs\Aparnic2\app\Plugin\AparnicTemplates\Config\bootstrap.php
+#Line 6 E:\xampp\htdocs\Aparnic2\app\Plugin\AparnicTemplates\View\Templates\admin_setting.ctp
+#Line 16 E:\xampp\htdocs\Aparnic2\app\Plugin\AparnicTemplates\View\Templates\admin_setting.ctp
+msgid "Aparnic Template"
+msgstr ""
+
+#====================================================================================================
+#Line 41 E:\xampp\htdocs\Aparnic2\app\Plugin\AparnicTemplates\View\Templates\admin_setting.ctp
+msgid "Default Color Schema"
+msgstr ""
+
+#====================================================================================================
+#Line 47 E:\xampp\htdocs\Aparnic2\app\Plugin\AparnicTemplates\View\Templates\admin_setting.ctp
+msgid "Aparnic Theme 1"
+msgstr ""
+
+#====================================================================================================
+#Line 67 E:\xampp\htdocs\Aparnic2\app\Plugin\AparnicTemplates\View\Templates\admin_setting.ctp
+msgid "right to left"
+msgstr ""
+
+#====================================================================================================

@@ -119,7 +119,9 @@ div.extensions-themes .current-theme .screenshot {
 .dropdown-menu{
     right: 0;
 }
-
+.input-prepend .add-on:first-child, .input-prepend .btn:first-child {
+    border-radius: 0 4px 4px 0;
+}
 .input-prepend .add-on, .input-prepend .btn {
     margin-left: -1px;
 }

@@ -1,4 +1,4 @@
 AparnicTemplates
 ================
 
-Simply change admin template
+Have a nice admin panel

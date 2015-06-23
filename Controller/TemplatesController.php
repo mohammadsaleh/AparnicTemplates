@@ -6,8 +6,9 @@ App::uses('AparnicTemplatesAppController', 'AparnicTemplates.Controller');
  */
 class TemplatesController extends AparnicTemplatesAppController {
     
-    
-    public function admin_setting() {
+
+    public function admin_setting($name = null) {
+		
         if(!empty($this->request->data)){
 //            debug($this->request->data);
             $theme = $this->request->data['Template']['theme'];

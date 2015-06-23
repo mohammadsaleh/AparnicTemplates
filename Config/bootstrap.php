@@ -2,7 +2,7 @@
 //debug(Configure::read());
 Croogo::hookComponent('*', 'AparnicTemplates.AparnicTemplates');
 Croogo::hookHelper('*', 'AparnicTemplates.AparnicTemplates');
-CroogoNav::add('settings.children.aparnic_templates', array(
+CroogoNav::add('sidebar', 'settings.children.aparnic_templates', array(
     'title' => __d('aparnic_templates', 'Aparnic Template'),
     'url' => array(
         'admin' => true,

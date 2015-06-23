@@ -27,6 +27,9 @@ label, input, button, select, textarea {
 .sidebar .sidebar-item span {
     margin: 0;
 }
+.sidebar .sidebar-item i{
+    padding: 0 5px;
+}
 .sidebar.navbar-inverse .navbar-inner {
     background: none repeat scroll 0 0 #412039;
 }
@@ -190,6 +193,9 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 }
 .navbar-inverse .brand, .navbar-inverse .nav > li > a {
     text-shadow: none;
+}
+.input-prepend .add-on:first-child, .input-prepend .btn:first-child {
+    border-radius: 0 4px 4px 0;
 }
 #admin-login .forgot {
     margin: 0;

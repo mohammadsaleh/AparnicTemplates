@@ -113,6 +113,9 @@ textarea[class*="span"],
 .sidebar .sidebar-item.current.dropdown-close {
     background: url("../../img/icons/sidebar_active.png") no-repeat scroll 0px 10px rgba(0, 0, 0, 0);
 }
+.sidebar .sidebar-item.current {
+    background: url("../../img/icons/sidebar_active.png") no-repeat scroll 0px 10px rgba(0, 0, 0, 0);
+}
 div.extensions-themes .current-theme .screenshot {
     float: right;
 }

@@ -14,7 +14,9 @@ class AparnicTemplatesHelper extends AppHelper{
             
             if(!empty($adminTheme)){
                 echo $this->Html->css('AparnicTemplates./theme_'.$adminTheme.'/css/style', array('inline' => false));
-                echo $this->Html->script('AparnicTemplates./theme_'.$adminTheme.'/js/script', array('inline' => false));
+                if(CakeSession::check('Auth.User')){
+                    echo $this->Html->script('AparnicTemplates./theme_'.$adminTheme.'/js/script', array('inline' => false));
+                }
                 if(!empty($adminRtlTheme))
                     echo $this->Html->css('AparnicTemplates./theme_'.$adminTheme.'/css/style_rtl', array('inline' => false));
             }

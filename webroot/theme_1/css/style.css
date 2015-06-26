@@ -1,8 +1,8 @@
 @font-face {
-  font-family: 'BYekan';
-  src: url('../../fonts/BYekan.eot?#') format('eot'),  /* IE6–8 */
-       url('../../fonts/BYekan.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-       url('../../fonts/BYekan.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+    font-family: 'BYekan';
+    src: url('../fonts/BYekan.eot?#') format('eot'),  /* IE6–8 */
+    url('../fonts/BYekan.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/BYekan.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
 }
 body{
     font-size: 13px;
@@ -37,11 +37,17 @@ label, input, button, select, textarea {
     border: none;
     box-shadow: none;
 }
+.navbar-fixed-top{
+    z-index: 10300;
+}
 .navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
     box-shadow: none;
 }
 .sidebar.navbar-inverse .nav-stacked > li:first-child > a {
     border-top: none;
+}
+#wrap{
+    height: initial !important;
 }
 #wrap > nav {
     margin-top: 0;
@@ -76,15 +82,16 @@ header {
 }
 #content-container {
     background: none repeat scroll 0 0 #441E3B;
-    margin-bottom: -99999px;
-    padding: 20px 0 99999px;
+    margin-bottom: 0;
+    padding: 0;
 }
 
 #content {
     background: none repeat scroll 0 0 #F1F1F1;
     border-radius: 0;
-    margin-bottom: 10px;
-    min-height: 400px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    min-height: 100%;
     padding: 20px;
 }
 #push {
@@ -184,6 +191,9 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
     font-size: 12px;
     line-height: 15px;
 }
+.box .btn {
+    margin: 4px 0px 0 4px;
+}
 .actions{
     background: none repeat scroll 0 0 #F8F8F8;
     padding: 10px;
@@ -202,4 +212,8 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 }
 .available-themes .actions{
     background: none;
+}
+footer{
+    position: absolute;
+    width: 100%;
 }

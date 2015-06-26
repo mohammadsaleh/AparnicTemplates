@@ -9,12 +9,12 @@ body{
     float: left;
 }
 #authMessage .success, div .success {
-	border: none;
+    border: none;
     border-right: 4px solid #65BC3E;
     padding: 8px 35px 8px 14px;
 }
 #authMessage .success, div .error {
-	border: none;
+    border: none;
     border-right: 4px solid #FF7474;
     padding: 8px 35px 8px 14px;
 }
@@ -22,7 +22,7 @@ body{
     padding: 8px 35px 8px 14px;
 }
 .breadcrumb {
-	border: none;
+    border: none;
     border-right: 4px solid #FFD639;
 }
 .filter {
@@ -57,13 +57,13 @@ table .item-actions a {
 .nav-tabs > li, .nav-pills > li {
     float: right;
 }
-input[class*="span"], 
-select[class*="span"], 
-textarea[class*="span"], 
-.uneditable-input[class*="span"], 
-.row-fluid input[class*="span"], 
-.row-fluid select[class*="span"], 
-.row-fluid textarea[class*="span"], 
+input[class*="span"],
+select[class*="span"],
+textarea[class*="span"],
+.uneditable-input[class*="span"],
+.row-fluid input[class*="span"],
+.row-fluid select[class*="span"],
+.row-fluid textarea[class*="span"],
 .row-fluid .uneditable-input[class*="span"] {
     margin-right: 0;
 }
@@ -92,11 +92,11 @@ textarea[class*="span"],
 .pagination ul > li {
     float: right;
 }
-.pagination ul > li:last-child > a, 
+.pagination ul > li:last-child > a,
 .pagination ul > li:last-child > span {
     border-radius: 4px 0 0 4px;
 }
-.pagination ul > li:first-child > a, 
+.pagination ul > li:first-child > a,
 .pagination ul > li:first-child > span {
     border-radius: 0 4px 4px 0;
     border-right-width: 1px;
@@ -111,10 +111,10 @@ textarea[class*="span"],
     border-width: 5px 5px 5px 0;
 }
 .sidebar .sidebar-item.current.dropdown-close {
-    background: url("../../img/icons/sidebar_active.png") no-repeat scroll 0px 10px rgba(0, 0, 0, 0);
+    background: url("../img/icons/sidebar_active.png") no-repeat scroll 0px 10px rgba(0, 0, 0, 0);
 }
 .sidebar .sidebar-item.current {
-    background: url("../../img/icons/sidebar_active.png") no-repeat scroll 0px 10px rgba(0, 0, 0, 0);
+    background: url("../img/icons/sidebar_active.png") no-repeat scroll 0px 10px rgba(0, 0, 0, 0);
 }
 div.extensions-themes .current-theme .screenshot {
     float: right;

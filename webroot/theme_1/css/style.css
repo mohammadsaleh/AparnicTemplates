@@ -192,7 +192,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
     text-shadow: none;
     border-radius: 2px;
     font-size: 12px;
-    line-height: 15px;
+    /*line-height: 15px;*/
 }
 .box .btn {
     margin: 4px 0px 0 4px;
